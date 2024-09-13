@@ -1,0 +1,6 @@
+{
+    "mypy.runUsingActiveInterpreter": true,
+    "mypy.debugLogging": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.autoImportCompletions": false
+}
