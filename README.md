@@ -27,9 +27,9 @@ python_problem_questions/ ├── beginner/ # Basic problems to build foundati
    
 Explore the folders (beginner, intermediate, advanced) to find problems.
 
-Run the solutions:
+2. Run the solutions:
 
-python <filename>.py
+   python <filename>.py
 
 Try solving problems yourself and compare your solutions.
 
