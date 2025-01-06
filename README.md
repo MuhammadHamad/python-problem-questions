@@ -22,13 +22,15 @@ python_problem_questions/ ├── beginner/ # Basic problems to build foundati
 1. Clone the repository:
 
    git clone <repository-url>
+   
    cd python_problem_questions
 
 Explore the folders (beginner, intermediate, advanced) to find problems.
 
-Run the solutions:
+2. Run the solution:
 
-python <filename>.py
+    python <filename>.py
+
 Try solving problems yourself and compare your solutions.
 
 # Goals
