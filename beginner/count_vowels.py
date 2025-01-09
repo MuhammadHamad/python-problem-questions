@@ -1,21 +1,21 @@
-# Task: Write a function called count_vowels that takes a string as input
-# and returns the total number of vowels(a, e, i, o, u) in that string. 
-# The function should be case-insensitive and should ignore spaces and punctuation.
-
+import re
 
 def count_vowels(s: str) -> int:
-    # Define a set of vowels (both lowercase and uppercase)
-    vowels: str = "aeiou"
-
-    # Normalize the string to lowercase
+    vowels = "aeiou"
     s = s.lower()
+    return sum(1 for char in s if char in vowels)  # Count vowels
 
-    # Initialize a counter for the vowels
-    vowel_count: int = 0
 
-    # Loop through each character in the string
-    for char in s:
-        if char in vowels:  # Check if the character is a vowel
-            vowel_count += 1  # Increment the counter if it is a vowel
+while True:
+    input_string = input("Enter a string to check the number of vowels (or type 'quit' to exit): ")
+    if input_string.lower() == "quit":
+        break  # Exit the loop if the user types 'quit'
 
-    return vowel_count  # Return the total count of vowels
+    # Remove non-alphabetic characters
+    cleaned_string = re.sub(r'[^a-zA-Z]', '', input_string)
+
+    if cleaned_string:  # Check if there's anything left after cleaning
+        result = count_vowels(cleaned_string)
+        print(f"The string has {result} vowels.")
+    else:
+        print("Invalid input. Please enter a valid string.")
