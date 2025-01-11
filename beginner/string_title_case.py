@@ -10,10 +10,10 @@
 # - Output: `"To Be or Not to Be, That Is the Question"`
 
 # ### Hints:
-# 1. **String Splitting**: Use the `split()` method to break the sentence into individual words.
-# 2. **Capitalization**: Use the `capitalize()` method or string slicing to capitalize the first letter of each word.
-# 3. **Conditional Logic**: Implement logic to check if a word is one of the short words that should remain in lowercase.
-# 4. **Joining Words**: After processing the words, use the `join()` method to combine them back into a single string with spaces.
+# 1. String Splitting**: Use the `split()` method to break the sentence into individual words.
+# 2. Capitalization**: Use the `capitalize()` method or string slicing to capitalize the first letter of each word.
+# 3. Conditional Logic**: Implement logic to check if a word is one of the short words that should remain in lowercase.
+# 4. Joining Words**: After processing the words, use the `join()` method to combine them back into a single string with spaces.
 
 # Feel free to implement the function based on these hints! Let me know if you have any questions or need further assistance.
 
