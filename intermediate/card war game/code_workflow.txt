@@ -1,0 +1,11 @@
+CODE WORKFLOW:
+
+1. Initialization: The game starts by creating and shuffling a deck.
+
+2. Deck Distribution: Cards are dealt to both players.
+
+3. Round Play: 
+    Each player chooses a card.
+    Card values are compared and points are rewarded.
+
+4. Game Conclusion: After the 7 rounds, scores are compared to determine the winner.
