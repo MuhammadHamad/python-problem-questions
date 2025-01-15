@@ -1,5 +1,5 @@
 
-# /Matrix is a two-dimensional list
+# Matrix is a two-dimensional list
 
 # zeros: list[int] = list(range(21))
 # chars: list[str] = list("A list")
@@ -13,7 +13,7 @@ letters.append("e")  # adds at the end of the list
 letters.insert(0, "3")  # inserts an element at a specific position
 
 # !REMOVE
-letters.pop()  # pop method removes elements from the end of the list
+letters.pop()  # pop method removes elements from a specified position in the list
 letters.remove("c")  # remove method removes a specific element
 letters.clear()  # clear method clears a given list
 # del method removes elements by index and it can also remove a range of elements
